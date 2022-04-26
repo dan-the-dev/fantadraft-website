@@ -53,28 +53,36 @@ const Home: NextPage = () => {
               <h2 className="mb-4 text-xl font-bold text-black md:text-3xl">Domande frequenti</h2>
               <div className="grid grid-cols-1 gap-0 text-gray-600 md:grid-cols-2 md:gap-16">
                   <div>
-                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Tails</h5>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Cos'é Fantadraft</h5>
                       <p>Tails is a drag and drop page builder built on Top of TailwindCSS. You can drop components to create a page that you can export.</p>
-                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Can I try it for Free?</h5>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Posso provarlo?</h5>
                       <p>Absolutely, you can try out tails for free; however, if you wish to access all the components and export the page you'll need to upgrade your account.</p>
-                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Where do I go to upgrade my account?</h5>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Come si gioca?</h5>
                       <p>
                           You can upgrade your account by visiting <a href="https://devdojo.com/pro" className="text-primary underline">The Pro Upgrade Page</a>. You will also gain access to many other applications and sections of the site.
                           <a href="https://help.hellonext.co/faq/startup-eligibility/" target="_blank">here</a>.
                       </p>
-                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">How long will I have access to Tails</h5>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Come funziona il draft?</h5>
+                      <p>
+                          You will have unlimited access to all your pre-built pages; however, if you want to be able to download and export your pages, you'll need a pro account.
+                          <a href="https://paddle.com" target="_blank">Paddle</a> for processing payments.
+                      </p>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Come funziona il Mantra?</h5>
                       <p>
                           You will have unlimited access to all your pre-built pages; however, if you want to be able to download and export your pages, you'll need a pro account.
                           <a href="https://paddle.com" target="_blank">Paddle</a> for processing payments.
                       </p>
                   </div>
                   <div>
-                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">How do I implement into my project</h5>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Quando sarà disponibile?</h5>
                       <p>Implementation in your project is very simple. You can use the exported page as a starting point, or you can copy and paste the HTML into your own page.</p>
-                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is the license on the pages?</h5>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Quando comincerà la campagna Kickstarter?</h5>
                       <p>You have unlimited use to the templates used in Tails; however, you cannot re-use the templates to sell for others to use.</p>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">Can I cancel my account if I not longer need it?</h5>
                       <p>Of course, you can feel free to cancel your account at anytime, and you can feel free to come back and upgrade again whenever you're ready.</p>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">What if I need help with my project?</h5>
+                      <p>If you need assistance implementing the templates into your project you can contact support or you can visit our <a href="https://devdojo.com/questions" className="text-primary underline">question section</a>.
+                      </p>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">What if I need help with my project?</h5>
                       <p>If you need assistance implementing the templates into your project you can contact support or you can visit our <a href="https://devdojo.com/questions" className="text-primary underline">question section</a>.
                       </p>
@@ -83,10 +91,40 @@ const Home: NextPage = () => {
           </div>
       </section>
 
-      <section className="text-gray-200 bg-white body-font border-t border-primary">
+
+        <section className="bg-primary text-gray-200">
+            <div className="w-full px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
+
+                <div className="flex flex-col items-center sm:px-5 md:flex-row">
+                    <div className="w-full md:w-1/2">
+                        <a href="#_" className="block">
+                            <img className="object-cover w-full h-full rounded-lg max-h-64 sm:max-h-96" src="https://cdn.devdojo.com/images/may2021/cupcakes.jpg" />
+                        </a>
+                    </div>
+                    <div className="flex flex-col items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-1/2">
+                        <div className="flex flex-col items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
+                            <div className="bg-secondary text-primary flex items-center pl-2 pr-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase">
+                                <svg className="w-3.5 h-3.5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <span>ULTIMA NEWS</span>
+                            </div>
+                            <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl"><a href="#_">Cos'è Fantadraft: la rivoluzione del fantacalcio.</a></h1>
+                            <p className="pt-2 text-sm font-medium text-secondary">by <a href="#_" className="mr-1 underline">Dan the dev</a> · <span className="mx-1">May 30th, 2022</span> · <span className="mx-1">5 min. read</span></p>
+                        </div>
+                        <div className="flex h-full w-full px-16 pt-14">
+                            <button className="btn bg-secondary text-primary hover:bg-primary hover:text-secondary hover:border-secondary">Leggi tutto l'articolo</button>
+                            <button className="btn bg-primary border-white text-white hover:bg-primary hover:text-secondary hover:border-secondary">Vedi tutti gli update sul progetto</button>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+
+
+      <section className="text-gray-200 bg-white body-font">
           <div className="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
               <Image src={'/logo.jpg'} width={'200'} height={'60'}/>
-              <p className="mt-4 text-sm text-primary sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2021 Tails - Tailwindcss Page Builder
+              <p className="mt-4 text-sm text-primary sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2022 Fantadraft - made with love by Dan the dev
               </p>
               <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
                   <a href="#" className="text-primary hover:text-secondary">
