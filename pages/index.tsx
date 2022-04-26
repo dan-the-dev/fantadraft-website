@@ -20,27 +20,37 @@ const Home: NextPage = () => {
       </section>
 
       <section className="w-full px-3 antialiased bg-primary lg:px-6">
-          <div className="mx-auto max-w-7xl">
-              <div className="container py-32 mx-auto text-center sm:px-4">
+          <div className="mx-auto max-w-7xl md:grid md:grid-cols-5">
 
-                  <h1 className="text-4xl font-extrabold leading-10 tracking-tight text-secondary sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl"><span className="block">Scopri un fantacalcio</span> <span className="relative inline-block mt-3 text-secondary">tutto nuovo</span></h1>
-                  <div className="max-w-lg mx-auto mt-6 text-sm text-center text-white md:mt-12 sm:text-base md:max-w-3xl md:text-lg xl:text-xl">Stanco del solito Fantacalcio? Scopri Fantadraft! Aggiungendo le dinamiche del Draft stile Magic abbiamo creato un esperienza di gioco inedita e divertentissima!</div>
-                  <div className="relative flex items-center max-w-lg mx-auto mt-12 overflow-hidden text-center">
-                      <input type="text" name="email" placeholder="La tua email" className="w-full h-12 px-6 py-2 font-medium text-primary focus:outline-none rounded-l-full" />
-                      <span className="relative top-0 right-0 block">
-                          <button type="button" className="inline-flex items-center w-56 h-12 px-8 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary">
-                              Gioca in anteprima
-                          </button>
-                      </span>
-                  </div>
-                  <div className="mt-8 text-sm text-white">Iscrivendoti accetti di ricevere via email gli aggiornamenti sul progetto.</div>
+            <div className="mockup-phone border-yellow-50 h-fit col-span-2 mt-10 shadow-2xl shadow-black">
+              <div className="camera"></div> 
+              <div className="display">
+                <div className="artboard artboard-demo phone-1">
+                  <Image src={'/screen1.png'} width={'320'} height={'580'} />
+                </div>
               </div>
+            </div>
+
+            <div className="container py-16 md:py-36 mx-auto text-center sm:px-4 col-span-3">
+                <h1 className="text-4xl font-extrabold leading-10 tracking-tight text-secondary sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl"><span className="block">Scopri un fantacalcio</span> <span className="relative inline-block mt-3 text-secondary">tutto nuovo</span></h1>
+                <div className="max-w-lg mx-auto mt-6 text-sm text-center text-white md:mt-12 sm:text-base md:max-w-3xl md:text-lg xl:text-xl">Stanco del solito Fantacalcio? Scopri Fantadraft! Aggiungendo le dinamiche del Draft stile Magic abbiamo creato un esperienza di gioco inedita e divertentissima!</div>
+                <div className="relative flex items-center max-w-lg mx-auto mt-12 overflow-hidden text-center">
+                    <input type="text" name="email" placeholder="Email" className="w-full h-12 px-6 py-2 font-medium text-primary focus:outline-none rounded-l-full" />
+                    <span className="relative top-0 right-0 block">
+                        <button type="button" className="inline-flex items-center w-40 md:w-56 h-12 px-8 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary">
+                            Resta aggiornato
+                        </button>
+                    </span>
+                </div>
+                <div className="mt-8 text-sm text-white">Iscrivendoti accetti di ricevere via email gli aggiornamenti sul progetto.</div>
+            </div>
+
           </div>
       </section>
 
       <section className="py-24 bg-white">
           <div className="px-8 mx-auto max-w-7xl lg:px-16">
-              <h2 className="mb-4 text-xl font-bold md:text-3xl">Domande frequenti</h2>
+              <h2 className="mb-4 text-xl font-bold text-black md:text-3xl">Domande frequenti</h2>
               <div className="grid grid-cols-1 gap-0 text-gray-600 md:grid-cols-2 md:gap-16">
                   <div>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">What is Tails</h5>
