@@ -17,8 +17,8 @@ const Blog: NextPage = () => {
         <div className="divide-y">
             <PostListElement 
                 title="Cos'è Fantadraft: la rivoluzione del Fantacalcio."
-                date='30 Maggio 2022'
-                incipit='Lorem ipsum dolor sit amet, consectetur adipiscing elit, praesent non varius erat, ut viverra orci. Sed nec odio libero. Maecenas at malesuada leo. Nulla sed lectus convallis, euismod libero eu, vehicula massa.'
+                date='1 Maggio 2022'
+                incipit='Con Fantadraft vogliamo creare una esperienza di gioco fantacalcistica totalmente nuova, che permetta ogni settimana di divertirsi con il Draft, la formazione, le partite, i voti; ma anche di vincere premi e competere con gli amici! Scopri di più!'
                 mins={5}
                 imgurl='https://cdn.devdojo.com/images/may2021/cupcakes.jpg'
                 url='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio'

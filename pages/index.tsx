@@ -71,8 +71,10 @@ const Home: NextPage = () => {
                                 <span>ULTIMA NEWS</span>
                             </div>
                             <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl"><a href="#_">Cos'è Fantadraft: la rivoluzione del Fantacalcio.</a></h1>
-                            <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">30 Maggio 2022</span> · <span className="mx-1">5 min. read</span></p>
-                            <p className="pt-2 text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, praesent non varius erat, ut viverra orci. Sed nec odio libero. Maecenas at malesuada leo. Nulla sed lectus convallis, euismod libero eu, vehicula massa.</p>
+                            <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">1 Maggio 2022</span> · <span className="mx-1">5 min. read</span></p>
+                            <p className="pt-2 text-xs">
+                                Con Fantadraft vogliamo creare una esperienza di gioco fantacalcistica totalmente nuova, che permetta ogni settimana di divertirsi con il Draft, la formazione, le partite, i voti; ma anche di vincere premi e competere con gli amici! Scopri di più!
+                            </p>
                         </div>
                         <div className="flex h-full w-full pt-5 md:pl-10 lg:pl-16">
                             <button className="btn bg-secondary text-primary hover:bg-primary hover:text-secondary hover:border-secondary" onClick={() => {router.push('/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}>Leggi tutto l'articolo</button>

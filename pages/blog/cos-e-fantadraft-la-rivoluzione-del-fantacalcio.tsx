@@ -12,7 +12,7 @@ const Blog: NextPage = () => {
             title="Cos'è Fantadraft: la rivoluzione del Fantacalcio."
             date='30 Maggio 2022'
             mins={5}
-            imgurl='https://cdn.devdojo.com/images/may2021/cupcakes.jpg'
+            imgurl='/blog/cupcakes.jpeg'
         >
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque congue, quam vel facilisis vehicula, augue justo vehicula ipsum, et bibendum mi ex nec est. Quisque elementum diam quis erat interdum, eu mollis lorem ultricies. Pellentesque semper placerat neque, et ultrices felis feugiat nec. Ut ac odio nisl. Aenean eget magna feugiat, hendrerit justo vel, interdum leo. Duis mattis porttitor justo, finibus luctus risus feugiat eu. Pellentesque eu ex porttitor, accumsan augue vitae, gravida lacus. Aliquam iaculis nisi sit amet nulla faucibus iaculis. Donec efficitur purus enim, vel rhoncus ligula laoreet quis. Pellentesque in lorem dapibus, ultricies libero a, pretium elit. Donec vehicula vestibulum nisl, eget ullamcorper ipsum tristique in.

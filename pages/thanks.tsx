@@ -24,7 +24,7 @@ const Thanks: NextPage = () => {
             <p className="text-center text-base">La campagna Kickstarter è prevista per l'autunno/inverno 2022: appena la data sarà definitiva la ufficializzeremo: sarai il primo a saperlo!</p>
         </section>
         <section className="pb-10 bg-primary text-white flex justify-center">
-        <button className="btn bg-secondary text-primary hover:bg-primary hover:text-secondary hover:border-secondary" onClick={() => {router.push('/')}}>Torna alla HOME</button>
+            <button className="btn bg-secondary text-primary hover:bg-primary hover:text-secondary hover:border-secondary" onClick={() => {router.push('/')}}>Torna alla HOME</button>
         </section>
      </>
   )
