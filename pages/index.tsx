@@ -9,13 +9,13 @@ const Home: NextPage = () => {
     <div>
 
       <section className="w-full px-3 antialiased bg-primary lg:px-6">
-          <div className="mx-auto max-w-7xl flex flex-col md:flex-row justify-center">
+          <div className="mx-auto max-w-7xl flex flex-col md:flex-row justify-center py-4">
 
             <div className="flex justify-center mt-5 md:mt-10">
                 <Image src={'/screen1.png'} width={'300px'} height={'550px'} layout={'fixed'}/>
             </div>
 
-            <div className="container py-10 md:pt-32 mx-auto text-center sm:px-4 col-span-3">
+            <div className="container py-10 mx-auto text-center sm:px-4 col-span-3">
                 <h1 className="text-4xl font-extrabold leading-10 tracking-tight text-secondary sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl"><span className="block">Scopri un Fantacalcio</span> <span className="relative inline-block mt-3 text-secondary">tutto nuovo</span></h1>
                 <div className="max-w-lg mx-auto mt-6 text-sm text-center text-white md:mt-12 sm:text-base md:max-w-3xl md:text-lg xl:text-xl">Stanco del solito Fantacalcio? Scopri Fantadraft! Aggiungendo le dinamiche del Draft stile Magic abbiamo creato un esperienza di gioco inedita e divertentissima!</div>
                 <form action="/api/subscribe" className="relative flex items-center max-w-lg mx-auto mt-12 overflow-hidden text-center">
@@ -26,16 +26,13 @@ const Home: NextPage = () => {
                     </span>
                 </form>
                 <div className="mt-8 text-sm text-white">Iscrivendoti accetti di ricevere via email gli aggiornamenti sul progetto.</div>
+                <div className="flex justify-center px-5 md:px-0">
+                    <Image src={'/kickstarter.png'} width={'600px'} height={'150px'} layout={'fixed'}/>
+                </div>
             </div>
 
           </div>
       </section>
-
-      <section className="pb-10 bg-primary">
-        <div className="flex justify-center px-5 md:px-0">
-            <Image src={'/kickstarter.png'} width={'600px'} height={'220px'} layout={'fixed'}/>
-        </div>
-    </section>
 
       <section className="pt-10 pb-20 bg-white">
           <div className="px-8 mx-auto max-w-7xl lg:px-16">
