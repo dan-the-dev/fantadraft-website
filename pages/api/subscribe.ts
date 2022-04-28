@@ -36,7 +36,7 @@ export default function handler(
     return data
   })
 
-  res.writeHead(301, { location: "/" } );
+  res.writeHead(301, { location: "/thanks" } );
   res.end();
   return
 }
