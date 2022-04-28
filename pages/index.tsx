@@ -18,14 +18,13 @@ const Home: NextPage = () => {
             <div className="container py-10 md:pt-32 mx-auto text-center sm:px-4 col-span-3">
                 <h1 className="text-4xl font-extrabold leading-10 tracking-tight text-secondary sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl"><span className="block">Scopri un Fantacalcio</span> <span className="relative inline-block mt-3 text-secondary">tutto nuovo</span></h1>
                 <div className="max-w-lg mx-auto mt-6 text-sm text-center text-white md:mt-12 sm:text-base md:max-w-3xl md:text-lg xl:text-xl">Stanco del solito Fantacalcio? Scopri Fantadraft! Aggiungendo le dinamiche del Draft stile Magic abbiamo creato un esperienza di gioco inedita e divertentissima!</div>
-                <div className="relative flex items-center max-w-lg mx-auto mt-12 overflow-hidden text-center">
-                    <input type="text" name="email" placeholder="Email" className="w-full h-12 px-6 py-2 font-medium text-primary focus:outline-none rounded-l-full" />
+                <form action="/api/subscribe" className="relative flex items-center max-w-lg mx-auto mt-12 overflow-hidden text-center">
+                    <label htmlFor="email" hidden>Email:</label><br />
+                    <input type="email" id="email" name="email" placeholder='Email' required className="w-full h-12 px-6 py-2 font-medium text-primary focus:outline-none rounded-l-full"/><br />
                     <span className="relative top-0 right-0 block">
-                        <button type="button" className="inline-flex items-center w-40 md:w-56 h-12 px-8 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary">
-                            Resta aggiornato
-                        </button>
+                        <input type="submit" value="Submit" className="inline-flex items-center w-40 md:w-56 h-12 px-8 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary" />
                     </span>
-                </div>
+                </form>
                 <div className="mt-8 text-sm text-white">Iscrivendoti accetti di ricevere via email gli aggiornamenti sul progetto.</div>
             </div>
 
