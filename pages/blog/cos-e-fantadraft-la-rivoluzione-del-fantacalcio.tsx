@@ -38,6 +38,7 @@ const Blog: NextPage = () => {
                 <form action="/api/subscribe" className="flex items-center mt-12 overflow-hidden text-center">
                     <label htmlFor="email" hidden>Email:</label><br />
                     <input type="email" id="email" name="email" placeholder='Email' required className="h-12 px-2 py-2 font-medium text-primary focus:outline-none rounded-l-full border border-gray-300"/><br />
+                    <input type="text" id="locale" name="locale" value={'it'} hidden readOnly/>
                     <span className="relative top-0 right-0 block">
                         <input type="submit" value="Rimani aggiornato" className="cursor-pointer inline-flex items-center h-12 px-2 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full border-secondary hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary" />
                     </span>
@@ -71,6 +72,7 @@ const Blog: NextPage = () => {
                 <form action="/api/subscribe" className="flex items-center mt-12 overflow-hidden text-center">
                     <label htmlFor="email" hidden>Email:</label><br />
                     <input type="email" id="email" name="email" placeholder='Email' required className="h-12 px-2 lg:px-5 py-2 font-medium text-primary focus:outline-none rounded-l-full border border-gray-300"/><br />
+                    <input type="text" id="locale" name="locale" value={'en'} hidden readOnly/>
                     <span className="relative top-0 right-0 block">
                         <input type="submit" value="Stay up to date" className="inline-flex items-center h-12 px-2 lg:px-5 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full border-secondary hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary" />
                     </span>

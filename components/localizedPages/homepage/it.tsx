@@ -20,8 +20,9 @@ const ItHomepage = () => {
                 <form action="/api/subscribe" className="relative flex items-center max-w-lg mx-auto mt-12 overflow-hidden text-center">
                     <label htmlFor="email" hidden>Email:</label><br />
                     <input type="email" id="email" name="email" placeholder='Email' required className="w-full h-12 px-6 py-2 font-medium text-primary focus:outline-none rounded-l-full"/><br />
+                    <input type="text" id="locale" name="locale" value={'it'} hidden readOnly/>
                     <span className="relative top-0 right-0 block">
-                        <input type="submit" value="Rimani aggiornato" className="inline-flex items-center w-40 md:w-56 h-12 px-8 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary" />
+                        <input type="submit" value="Rimani aggiornato" className="inline-flex items-center w-52 md:w-56 h-12 px-8 text-base font-bold leading-6 text-primary transition duration-150 ease-in-out bg-secondary border rounded-r-full hover:bg-primary hover:text-secondary hover:border-secondary focus:outline-none active:bg-primary" />
                     </span>
                 </form>
                 <div className="mt-8 text-sm text-white">Iscrivendoti, accetti di ricevere via email gli aggiornamenti sul progetto.</div>
