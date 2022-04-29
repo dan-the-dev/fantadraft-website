@@ -34,3 +34,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Schedule deploy
+
+Work in a branch then create a Pull Request.
+
+In your pull requests, add a line to the end of the pull request description look looking like this
+
+`/schedule 2019-12-31`
+Or if you need a more precise, timezone-safe setting, you can use an ISO 8601 date string
+
+`/schedule 2019-12-31T00:00:00.000Z`
+Any string that works with the new Date() constructor will work.
+
+To control at which time of the day you want the pull request to be merged, I recommend to adapt the - cron: ... setting in the workflow file.
+
+The action sets a pending commit status if the pull request was recognized as being scheduled.
+
+Note that pull requests from forks are ignored for security reasons.
