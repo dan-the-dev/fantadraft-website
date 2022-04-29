@@ -60,7 +60,7 @@ const ItHomepage = () => {
                 <div className="flex flex-col items-center sm:px-5 lg:flex-row">
                     <div className="w-full md:w-1/2">
                         <a href="#_" className="block">
-                            <Image src={'/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpeg'} layout="responsive" width={'500'} height={'400'} onClick={() => {router.push('/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}/>
+                            <Image src={'/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpg'} layout="responsive" width={'500'} height={'400'} onClick={() => {router.push('/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}/>
                         </a>
                     </div>
                     <div className="flex flex-col items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-1/2">

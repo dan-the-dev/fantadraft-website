@@ -23,7 +23,7 @@ const Blog: NextPage = () => {
                 : 'With Fantadraft we want to create a totally new fantasy football game experience, which allows you to have fun every week with the Draft, the lineup, the matches, the votes; but also to win prizes and compete with your friends! Find out more!'
                 }
                 readingTime={router.locale === 'it' ? 'Tempo di lettura: 2 min' : 'Reading time: 2 min'}
-                imgurl='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpeg'
+                imgurl='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpg'
                 url='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio'
                 position={1}
             />
