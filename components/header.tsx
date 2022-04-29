@@ -9,10 +9,13 @@ const Header = () => {
 
   const changeLocale = (locale: locale) => {
     router.push(router.asPath, router.asPath, { locale: locale })
-    router.reload()
   }
 
-  const flag = (locale: locale, active: boolean) => <>{!active && <p>{locale === 'it' ? 'Italiano' : 'English'}</p>}<Image src={'/flags/'+locale+'.png'} width={'25'} height={'20'} onClick={() => {if (active) {return}; changeLocale(locale)}} className='cursor-pointer'/></>
+  const flag = (locale: locale, active: boolean) => 
+    <div onClick={() => {if (active) {return}; changeLocale(locale)}} >
+      <span>{!active && <p>{locale === 'it' ? 'Italiano' : 'English'}</p>}</span>
+      <span><Image src={'/flags/'+locale+'.png'} width={'25'} height={'20'} className="cursor-pointer" /></span>
+    </div>
   const itFlag = (active: boolean) => flag('it', active)
   const enFlag = (active: boolean) => flag('en', active)
 
@@ -36,7 +39,7 @@ const Header = () => {
                     <ChevronDownIcon className='w-4 text-primary ml-1'/>  
                   </label>
                   <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-32">
-                    <li><a>{inactive()}</a></li>
+                    <li>{inactive()}</li>
                   </ul>
                 </div>
             </div>
