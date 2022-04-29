@@ -50,24 +50,12 @@ const Blog: NextPage = () => {
     const enContent = () => {
         return <>
             <p>
-                Fantadraft is a totally new game, never seen before. We imagined a new fantasy football game, in which every week you can make your own strategy to create your formation and try to get as many points as possible to win prizes (and brag about it to your friends!).
+                Fantadraft is a totally new game, one that you've never seen before. We imagine a new fantasy football game, in which every week you can make your own strategy to create your lineup, trying to get as many points as possible to win prizes (and brag about it to your friends!).
             </p>
             <br />
             <h2 className="text-lg font-bold">Fantacalcio + Draft</h2>
             <p>
-                What makes fantasy football really special is the initial auction: a unique and inimitable social moment. At the same time, the auction is also the biggest limitation of the game: if something goes wrong that day, you will pay for it for the whole year.
-            </p>
-            <br />
-            <p>
-                Often, many leagues close the market until February, after the repair market, but by then however much you can fix things it's often too late to win.
-            </p>
-            <br />
-            <p>
-                This creates a problem: many participants after 2/3 months are so far away from the prize zone that they lose motivation to do the training every week. If we are lucky, he will continue to play regularly, but still his enjoyment will be very low. There are many jockeys who live only for the auction, practically!
-            </p>
-            <br />
-            <p>
-            With Fantadraft we want to create a game that is always fun, for everyone, every single day of the football season, until the last one. A game where every week is fun to choose the players and the final lineup. By renouncing to the auction, we distribute the fun of those 6 hours (if it goes well!) along all the game days.
+                With Fantadraft we want to create a game that is always fun, for everyone, every single day of the football season, until the last one. A game where every week is fun to choose the players and the final lineup. 
             </p>
             <div className="flex justify-center py-5 px-5 md:px-0">
                 <Image src={'/kickstarter.png'} width={'300px'} height={'100px'} layout={'fixed'}/>
