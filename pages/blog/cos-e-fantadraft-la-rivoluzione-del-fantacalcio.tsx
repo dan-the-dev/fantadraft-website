@@ -57,6 +57,10 @@ const Blog: NextPage = () => {
             <p>
                 With Fantadraft we want to create a game that is always fun, for everyone, every single day of the football season, until the last one. A game where every week is fun to choose the players and the final lineup. 
             </p>
+            <br />
+            <p>
+                Fantasy football are great games, but maybe we can do better! Have you ever felt that the game is missing something? For example, if you make mistakes in the first choices, when you spend your budget to do the first version of the team, then you will have problem all the season, because tipically leagues limit the transfers you can do during the season! 
+            </p>
             <div className="flex justify-center py-5 px-5 md:px-0">
                 <Image src={'/kickstarter.png'} width={'300px'} height={'100px'} layout={'fixed'}/>
             </div>
