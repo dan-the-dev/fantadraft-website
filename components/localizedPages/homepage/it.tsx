@@ -26,7 +26,7 @@ const ItHomepage = () => {
                 </form>
                 <div className="mt-8 text-sm text-white">Iscrivendoti, accetti di ricevere via email gli aggiornamenti sul progetto.</div>
                 <div className="flex justify-center px-5 md:px-0">
-                    <Image src={'/kickstarter.png'} width={'600px'} height={'150px'} layout={'fixed'}/>
+                    <Image src={'/kickstarter.png'} width={'500px'} height={'140px'} layout={'fixed'}/>
                 </div>
             </div>
 
