@@ -17,7 +17,7 @@ const Blog: NextPage = () => {
         <div className="divide-y">
             <PostListElement 
                 title={router.locale === 'it' ? "Fantadraft: la rivoluzione del Fantacalcio." : "Fantadraft: Fantasy Football revolution"}
-                date={router.locale === 'it' ? "30 Maggio 2022" : "30th May, 2022"}
+                date={router.locale === 'it' ? "30 Aprile 2022" : "30th Apr, 2022"}
                 incipit={router.locale === 'it' ? 
                 'Con Fantadraft vogliamo creare una esperienza di gioco fantacalcistica totalmente nuova, che permetta ogni settimana di divertirsi con il Draft, la formazione, le partite, i voti; ma anche di vincere premi e competere con gli amici! Scopri di più!'
                 : 'With Fantadraft we want to create a totally new fantasy football game experience, which allows you to have fun every week with the Draft, the lineup, the matches, the votes; but also to win prizes and compete with your friends! Find out more!'

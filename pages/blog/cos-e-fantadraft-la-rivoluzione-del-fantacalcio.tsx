@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import PostPage from '../../components/postPage'
 
-const Blog: NextPage = () => {
+const CosEFantadraft: NextPage = () => {
     const router = useRouter()
 
     const itContent = () => {
@@ -87,7 +87,7 @@ const Blog: NextPage = () => {
 
         <PostPage 
             title={router.locale === 'it' ? "Fantadraft: la rivoluzione del Fantacalcio." : "Fantadraft: Fantasy Football revolution"}
-            date={router.locale === 'it' ? "30 Maggio 2022" : "30th May, 2022"}
+            date={router.locale === 'it' ? "30 Aprile 2022" : "30th Apr, 2022"}
             readingTime={router.locale === 'it' ? 'Tempo di lettura: 2 min' : 'Reading time: 2 min'}
             imgurl='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpg'
         >
@@ -98,4 +98,4 @@ const Blog: NextPage = () => {
   )
 }
 
-export default Blog
+export default CosEFantadraft
