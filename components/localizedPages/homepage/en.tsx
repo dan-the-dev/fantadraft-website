@@ -61,7 +61,7 @@ const EnHomepage = () => {
                 <div className="flex flex-col items-center sm:px-5 lg:flex-row">
                     <div className="w-full md:w-1/2">
                         <a href="#_" className="block">
-                            <Image src={'/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpg'} layout="responsive" width={'500'} height={'400'} onClick={() => {router.push('/en/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}/>
+                            <Image src={'/blog/introduzione-a-fantadraft.jpg'} layout="responsive" width={'500'} height={'400'} onClick={() => {router.push('/en/blog/introduzione-a-fantadraft')}}/>
                         </a>
                     </div>
                     <div className="flex flex-col items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-1/2">
@@ -70,14 +70,14 @@ const EnHomepage = () => {
                                 <svg className="w-3.5 h-3.5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
                                 <span>LATEST NEWS</span>
                             </div>
-                            <h1 className="cursor-pointer text-4xl font-bold leading-none lg:text-5xl xl:text-6xl" onClick={() => {router.push('/en/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}>Fantadraft: Fantasy Football revolution</h1>
+                            <h1 className="cursor-pointer text-4xl font-bold leading-none lg:text-5xl xl:text-6xl" onClick={() => {router.push('/en/blog/introduzione-a-fantadraft')}}>An introduction to Fantadraft</h1>
                             <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">1 Maggio 2022</span> · <span className="mx-1">5 min. read</span></p>
                             <p className="pt-2 text-xs">
-                            With Fantadraft we want to create a totally new fantasy football experience, which allows you to have fun every week with the draft, the training, the matches, the votes; but also to win prizes and compete with friends! Find out more!
+                                Kickstarter campaign is coming: while I'm working to have an official date, I introduce you a bit deeper into Fantadraft, talking about the reasons that made me start thinking about this game.
                             </p>
                         </div>
                         <div className="flex h-full w-full pt-5 md:pl-10 lg:pl-16">
-                            <button className="btn bg-secondary text-primary hover:bg-primary hover:text-secondary hover:border-secondary" onClick={() => {router.push('/en/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}>Read more</button>
+                            <button className="btn bg-secondary text-primary hover:bg-primary hover:text-secondary hover:border-secondary" onClick={() => {router.push('/en/blog/introduzione-a-fantadraft')}}>Read more</button>
                             <button className="btn bg-primary border-white text-white hover:bg-primary hover:text-secondary hover:border-secondary ml-3" onClick={()=>{router.push('/blog')}}>Previous news</button>
                         </div>
                     </div>
