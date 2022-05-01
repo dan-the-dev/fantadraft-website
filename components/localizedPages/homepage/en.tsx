@@ -71,7 +71,7 @@ const EnHomepage = () => {
                                 <span>LATEST NEWS</span>
                             </div>
                             <h1 className="cursor-pointer text-4xl font-bold leading-none lg:text-5xl xl:text-6xl" onClick={() => {router.push('/en/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}>Fantadraft: Fantasy Football revolution</h1>
-                            <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">1 Maggio 2022</span> · <span className="mx-1">5 min. read</span></p>
+                            <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">1st of May 2022</span> · <span className="mx-1">5 min. read</span></p>
                             <p className="pt-2 text-xs">
                             With Fantadraft we want to create a totally new fantasy football experience, which allows you to have fun every week with the draft, the training, the matches, the votes; but also to win prizes and compete with friends! Find out more!
                             </p>
