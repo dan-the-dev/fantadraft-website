@@ -71,7 +71,7 @@ const EnHomepage = () => {
                                 <span>LATEST NEWS</span>
                             </div>
                             <h1 className="cursor-pointer text-4xl font-bold leading-none lg:text-5xl xl:text-6xl" onClick={() => {router.push('/en/blog/introduzione-a-fantadraft')}}>An introduction to Fantadraft</h1>
-                            <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">1 Maggio 2022</span> · <span className="mx-1">5 min. read</span></p>
+                            <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">1st of May 2022</span> · <span className="mx-1">5 min. read</span></p>
                             <p className="pt-2 text-xs">
                                 Kickstarter campaign is coming: while I'm working to have an official date, I introduce you a bit deeper into Fantadraft, talking about the reasons that made me start thinking about this game.
                             </p>
