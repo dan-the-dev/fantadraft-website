@@ -120,17 +120,89 @@ const Blog: NextPage = () => {
 
     const enContent = () => {
         return <>
-            <p>
-                Fantadraft is a totally new game, one that you've never seen before. We imagine a new fantasy football game, in which every week you can make your own strategy to create your lineup, trying to get as many points as possible to win prizes (and brag about it to your friends!).
-            </p>
-            <br />
-            <h2 className="text-lg font-bold">Fantacalcio + Draft</h2>
-            <p>
-                With Fantadraft we want to create a game that is always fun, for everyone, every single day of the football season, until the last one. A game where every week is fun to choose the players and the final lineup. 
-            </p>
+            <h2 className="text-lg font-bold">The beginnings, the first tests</h2>
             <br />
             <p>
-                Fantasy football are great games, but maybe we can do better! Have you ever felt that the game is missing something? For example, if you make mistakes in the first choices, when you spend your budget to do the first version of the team, then you will have problem all the season, because tipically leagues limit the transfers you can do during the season! 
+                As I told you last week, I had this idea for a long time. But it was in December 2021 that I started to elaborate it again, having clearer ideas and more skills, not only technical but also business and marketing ones, accumulated over the years, so I realized that I could try to think seriously about it, this time.
+            </p>
+            <p>
+                I looked for tools that would allow me to create prototypes and make game tests in order to get the look & feel of the real game and try to understand what critical issues it could have.
+            </p>
+            <p>
+                I started to learn about best practices, think about an MVP, wonder if it was realistic to think about crowdfunding or not, to imagine how to do it technically.
+            </p>
+            <p>
+                I started dreaming.
+            </p>
+            <br />
+            <h2 className="text-lg font-bold">The first prototype</h2>
+            <br />
+            <p>
+                In March, the first prototype saw the light, in the form of a web application, with fake sample data and a simple Home screen from which you could start the Draft.
+            </p>
+            <p>
+                The prototype was the simplest I could imagine: the Draft started by making you choose the module among 4 random ones; then it proceeded one position at a time, showing 6 random players of that role and allowing you to create your starting 11. In the end, random algorithm-generated votes and bonuses give the effect of LIVE result and final result.
+            </p>
+            <p>
+                The rules were the basic fantasy soccer ones: with a limited set of players of Italian Serie A that I inserted manually, but it worked well enough for the purpose it was meant to serve: to send it to friends and get some feedback.
+            </p>
+            <br />
+            <h2 className="text-lg font-bold">The first feedback and changes</h2>
+            <br />
+            <p>
+                After running the prototype for a while, the general sentiment was always the same: nice, cool, but... something was missing.
+            </p>
+            <p>
+                The criticality found was always the same: too easy!
+            </p>
+            <p>
+                Obviously, the fact that it was a prototype made it easier, but there was no way to prevent everyone from getting a squadron with ease.
+            </p>
+            <p>
+                At first, I thought it was enough to insert bands: the first band players appear a few times, blanching the team more. But the problem was elsewhere.
+            </p>
+            <p>
+                The starting assumption was wrong: starting with the module made the subsequent choices to driven by the available roles, too easy to find good players.
+            </p>
+            <p>
+                It was here that I took even more inspiration from Draft Magic: in the Wizard card game, the Draft mode starts from the packets; each player opens a packet, chooses a card, and passes it to the next, in rotation, and each player continues to choose and pass until they run out of cards. Then you have to build the deck with the drafted cards, but not only with those: there are some cards that are freely chosen, called lands, and of the drafted cards some will be discarded to stay within the limit of cards allowed in the deck.
+            </p>
+            <p>
+                It was necessary to go in that direction and completely reverse the mechanism: first choose a group of players, in excess of the 11+8 needed to make starters and bench, then let people choose freely how to deploy them by finding the best combination.
+            </p>
+            <br />
+            <h2 className="text-lg font-bold">Game design and UX</h2>
+            <br />
+            <p>
+                From here on, before updating the prototype I did a Game Design work that has completely unwrapped the game, making it much more strategic, balanced, and competitive.
+            </p>
+            <p>
+                First, a draft of the players: 24 players, to be precise, from which to choose the 18 to field as the starting lineup and bench players.
+            </p>
+            <p>
+                Second step: free choice of tactics and composition of the formation, trying to get the best fit with the chosen players.
+            </p>
+            <p>
+                It seemed perfect!
+            </p>
+            <br />
+            <h2 className="text-lg font-bold">Final mechanics</h2>
+            <br />
+            <p>
+                Friends excited, me even more excited than them, and meanwhile, I managed to get in touch with a professional Game Designer, a person who creates games for work... and I get taken apart right away.
+            </p>
+            <p>
+                Don't get me wrong, the game designer immediately shared enthusiasm for the game, recognizing great potential, but he put me in front of several issues:
+            </p>
+            <p>
+                From a pure gameplay point of view, and without wanting to spoil too much, the main problem was that the choices remained too obvious: I needed a way to make sure that in front of an apparently obvious choice (e.g. Bajrami or Vlahovic) people were led to have doubts, and maybe make the least likely choice because they knew they would get some benefit from the game.
+            </p>
+            <p>
+                This was the last step to building the final mechanics: Classic Fantasy Soccer classic was not enough, we needed the Mantra type of Fantasy Football.
+            </p>
+            <br />
+            <p>
+                I'll stop here for today, next week you will discover everything: it's about time to discover the full mechanics!
             </p>
             <div className="flex justify-center py-5 px-5 md:px-0">
                 <Image src={'/kickstarter.png'} width={'300px'} height={'100px'} layout={'fixed'}/>
