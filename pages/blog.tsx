@@ -16,6 +16,18 @@ const Blog: NextPage = () => {
 
         <div className="divide-y">
             <PostListElement 
+                title={router.locale === 'it' ? "Evoluzione dell'idea e decisioni già prese" : "Evolution of the idea and decisions already made"}
+                date={router.locale === 'it' ? "13 Giugno 2022" : "13th Jun, 2022"}
+                incipit={router.locale === 'it' ? 
+                'In questi mesi di preparazione abbiamo già cambiato idea varie volte, fatto delle scelte e cambiato strade: oggi vi racconto l\'evoluzione che c\'è stata'
+                : 'In these months of preparation we have already changed our minds several times, made choices and changed our ways: today I will tell you about the evolution that took place.'
+                }
+                readingTime={router.locale === 'it' ? 'Tempo di lettura: 8 min' : 'Reading time: 8 min'}
+                imgurl='/blog/evoluzioni-idea-decisioni-prese.jpg'
+                url='/blog/evoluzioni-idea-decisioni-prese'
+                position={1}
+            />
+            <PostListElement 
                 title={router.locale === 'it' ? "Fantadraft: la rivoluzione del Fantacalcio." : "Fantadraft: Fantasy Football revolution"}
                 date={router.locale === 'it' ? "30 Maggio 2022" : "30th May, 2022"}
                 incipit={router.locale === 'it' ? 
@@ -25,7 +37,7 @@ const Blog: NextPage = () => {
                 readingTime={router.locale === 'it' ? 'Tempo di lettura: 2 min' : 'Reading time: 2 min'}
                 imgurl='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpg'
                 url='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio'
-                position={1}
+                position={2}
             />
         </div>
 
