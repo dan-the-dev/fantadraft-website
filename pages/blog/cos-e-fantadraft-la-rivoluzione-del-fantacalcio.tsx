@@ -89,7 +89,7 @@ const Blog: NextPage = () => {
             title={router.locale === 'it' ? "Fantadraft: la rivoluzione del Fantacalcio." : "Fantadraft: Fantasy Football revolution"}
             date={router.locale === 'it' ? "30 Maggio 2022" : "30th May, 2022"}
             readingTime={router.locale === 'it' ? 'Tempo di lettura: 2 min' : 'Reading time: 2 min'}
-            imgurl='/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpg'
+            imgurl='/blog/come-funziona-fantadraft.jpg'
         >
             {router.locale === 'it' ? itContent() : enContent()}
         </PostPage>
