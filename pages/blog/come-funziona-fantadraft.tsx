@@ -203,10 +203,10 @@ const Blog: NextPage = () => {
             </p>
             <div className="flex justify-around py-5 px-10">
                 <div className="flex justify-center px-5 md:px-0">
-                    <Image src={'/blog/draft1.jpg'} width={'300px'} height={'600px'} layout={'fixed'} />
+                    <Image src={'/blog/draft1en.jpg'} width={'300px'} height={'600px'} layout={'fixed'} />
                 </div>
                 <div className="flex justify-center px-5 md:px-0">
-                    <Image src={'/blog/draft2.jpg'} width={'300px'} height={'600px'} layout={'fixed'} />
+                    <Image src={'/blog/draft2en.jpg'} width={'300px'} height={'600px'} layout={'fixed'} />
                 </div>
             </div>
             <p>
