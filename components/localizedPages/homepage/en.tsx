@@ -11,7 +11,7 @@ const EnHomepage = () => {
           <div className="mx-auto max-w-7xl flex flex-col lg:flex-row justify-center py-4">
 
             <div className="flex justify-center mt-5 md:mt-10">
-                <Image src={'/screen1.png'} width={'300px'} height={'550px'} layout={'fixed'}/>
+                <Image src={'/screen1en.png'} width={'300px'} height={'550px'} layout={'fixed'}/>
             </div>
 
             <div className="container py-10 mx-auto text-center sm:px-4 col-span-3">
