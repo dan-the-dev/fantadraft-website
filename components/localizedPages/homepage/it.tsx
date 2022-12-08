@@ -26,15 +26,12 @@ const ItHomepage = () => {
                     </span>
                 </form>
                 <div className="mt-8 text-sm text-white">Iscrivendoti, accetti di ricevere via email gli aggiornamenti sul progetto.</div>
-                <div className="flex justify-center px-5 md:px-0">
-                    <Image src={'/kickstarter.png'} width={'500px'} height={'140px'} layout={'fixed'}/>
-                </div>
             </div>
 
           </div>
       </section>
 
-      <section className="pt-10 pb-20 bg-white">
+      <section className="pt-10 pb-20 bg-gray-200">
           <div className="px-8 mx-auto max-w-7xl lg:px-16">
               <h2 className="mb-4 text-xl font-bold text-black md:text-3xl">Domande frequenti</h2>
               <div className="grid grid-cols-1 gap-0 text-gray-600 md:grid-cols-2 md:gap-16">
@@ -46,45 +43,13 @@ const ItHomepage = () => {
                   </div>
                   <div>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">Quando sarà disponibile?</h5>
-                      <p>Il gioco ancora non esiste: stiamo lavorando per crearlo e stiamo organizzando una campagna Kickstarter per l'autunno/inverno per finanziare lo sviluppo dell'applicazione, il marketing, gli aspetti legali dei giochi a premi, e tutto quel che serve per farlo funzionare al meglio.</p>
-                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Quando comincerà la campagna Kickstarter?</h5>
-                      <p>La campagna Kickstarter e' pianificata per Settembre/Ottobre del 2022; non appena avremo deciso la data definitiva, la annunceremo ufficialmente. Il modo migliore per scoprire per primo quando comincerà la campagna è iscriversi alla nostra mailing list: potrai rimanere aggiornato passo passo sugli sviluppi del progetto.</p>
+                      <p>Il gioco ancora non esiste: stiamo lavorando per crearlo e speriamo di farvi vedere una prima versione entro la fine del campionato di Serie A 2022/2023 - l'obiettivo è lanciare poi le competizioni per la stagione 2023/2024.</p>
+                      <h5 className="mt-10 mb-3 font-semibold text-gray-900">Cosa si vince?</h5>
+                      <p>Ci saranno a disposizione competizioni globali a cui partecipare per vincere premi in buoni Amazon, ma non solo. Si potranno anche creare leghe private in cui competere con gli amici!</p>
                   </div>
               </div>
           </div>
       </section>
-
-
-        <section className="bg-primary text-gray-200">
-            <div className="w-full px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
-
-                <div className="flex flex-col items-center sm:px-5 lg:flex-row">
-                    <div className="w-full md:w-1/2">
-                        <a href="#_" className="block">
-                            <Image src={'/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio.jpg'} layout="responsive" width={'500'} height={'400'} onClick={() => {router.push('/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}/>
-                        </a>
-                    </div>
-                    <div className="flex flex-col items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-1/2">
-                        <div className="flex flex-col items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
-                            <div className="bg-secondary text-primary flex items-center pl-2 pr-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase">
-                                <svg className="w-3.5 h-3.5 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-                                <span>ULTIMA NEWS</span>
-                            </div>
-                            <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl cursor-pointer" onClick={() => {router.push('/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}>Fantadraft: la rivoluzione del Fantacalcio</h1>
-                            <p className="pt-2 text-sm font-medium text-secondary"><span className="mx-1">1 Maggio 2022</span> · <span className="mx-1">5 min. read</span></p>
-                            <p className="pt-2 text-xs">
-                                Con Fantadraft vogliamo creare una esperienza di gioco fantacalcistica totalmente nuova, che permetta ogni settimana di divertirsi con il Draft, la formazione, le partite, i voti; ma anche di vincere premi e competere con gli amici! Scopri di più!
-                            </p>
-                        </div>
-                        <div className="flex h-full w-full pt-5 md:pl-10 lg:pl-16">
-                            <button className="btn bg-secondary text-primary hover:bg-primary hover:text-secondary hover:border-secondary" onClick={() => {router.push('/blog/cos-e-fantadraft-la-rivoluzione-del-fantacalcio')}}>Leggi tutto l'articolo</button>
-                            <button className="btn bg-primary border-white text-white hover:bg-primary hover:text-secondary hover:border-secondary ml-3" onClick={()=>{router.push('/blog')}}>Vedi tutti</button>
-                        </div>
-                    </div>
-                </div>
-                    
-            </div>
-        </section>
 
     </div>
   )
